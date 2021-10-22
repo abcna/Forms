@@ -104,7 +104,12 @@ export default function Registery() {
         >
           <p
             className={theme}
-            style={{ marginBottom: 40, fontWeight: 900, fontSize: 20 }}
+            style={{
+              paddingLeft: 50,
+              marginBottom: 40,
+              fontWeight: 900,
+              fontSize: 20,
+            }}
           >
             {" "}
             Complite your information{" "}

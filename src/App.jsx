@@ -56,7 +56,11 @@ function App() {
     <ConfigProvider locale={language}>
       <header>
         <div className="App">
-          <Button style={{width:200}} type="primary" onClick={() => setIsModalVisible(true)}>
+          <Button
+            style={{ width: 200 }}
+            type="primary"
+            onClick={() => setIsModalVisible(true)}
+          >
             Open Dashbord
           </Button>
           <>
@@ -77,7 +81,7 @@ function App() {
           </>
         </div>
       </header>
-      <Row justify="center" align="middle">
+      <Row justify="center">
         <Col>
           <footer>{form}</footer>
         </Col>
