@@ -21,7 +21,7 @@ export default function Login() {
               name="normal_login"
               className="login-form"
               className={theme}
-              style={{ maxWidth: 3000, marginTop: 200, padding: 100 }}
+              style={{ maxWidth: 3000, marginTop: 180, padding: 100 , marginBottom: 50 }}
               initialValues={{
                 remember: true,
               }}

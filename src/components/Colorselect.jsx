@@ -35,6 +35,10 @@ export default function Colorselect() {
         setTheme(value);
       case "boxgreen":
         setTheme(value);
+      case "backgroundC":
+        setTheme(value);
+      case "backgroundC2":
+        setTheme(value);
 
         break;
 
@@ -101,6 +105,8 @@ export default function Colorselect() {
           <Option value="boxgreen">green</Option>
           <Option value="box1">blue</Option>
           <Option value="box">grey</Option>
+          <Option value="backgroundC">custom</Option>
+          <Option value="backgroundC2">custom sport</Option>
         </Select>
       </Col>
       <Col>

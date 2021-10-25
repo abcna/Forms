@@ -1,6 +1,11 @@
 @import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
-
+.red {
+  color: red;
+}
+.border {
+  border: red solid 5px;
+}
 html {
   height: 100%;
 }
@@ -13,6 +18,7 @@ body {
 #root,
 #app {
   height: 100%;
+  margin-top: 60px;
 }
 
 .page-container {
@@ -508,14 +514,14 @@ input[type="checkbox"] {
 .App {
   text-align: center;
 }
-.box {
+/* .box {
   background-color: #dddddd;
   border-style: solid;
   border-width: 2px;
   border-color: #30475e;
 }
 .box1 {
-  background-color: #DBE2EF;
+  background-color: #dbe2ef;
   border-style: solid;
   border-width: 2px;
   border-color: #0f4c75;
@@ -532,36 +538,36 @@ input[type="checkbox"] {
   background-color: #d3e4cd;
   border-style: solid;
   border-width: 2px;
-  border-color: #99A799;
+  border-color: #99a799;
   border-radius: 4px;
 }
 p.boxgreen {
-  background-color: #FFF7E0;
+  background-color: #fff7e0;
   border-style: solid;
   border-width: 2px;
-  border-color: #99A799;
+  border-color: #99a799;
   border-radius: 4px;
 }
 p.box2 {
   background-color: #bbe1fa;
   border-style: solid;
   border-width: 2px;
-  border-color: #3F72AF;
+  border-color: #3f72af;
   border-radius: 4px;
 }
 p.box1 {
-  background-color: #F9F7F7;
+  background-color: #f9f7f7;
   border-style: solid;
   border-width: 2px;
   border-color: #0f4c75;
   border-radius: 4px;
 }
 p.box {
-  background-color: #E5DCC3;
+  background-color: #e5dcc3;
   border-style: solid;
   border-width: 2px;
-  border-color: #9A9483;
-}
+  border-color: #9a9483; */
+/* } */
 .App-logo {
   height: 40vmin;
   pointer-events: none;

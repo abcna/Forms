@@ -103,7 +103,7 @@ export default function Registery() {
           scrollToFirstError
         >
           <p
-            className={theme}
+            className={`red ${theme} `}
             style={{
               paddingLeft: 50,
               marginBottom: 40,
@@ -115,6 +115,7 @@ export default function Registery() {
             Complite your information{" "}
           </p>
           <Form.Item
+            className="red"
             name="email"
             label="E-mail"
             rules={[

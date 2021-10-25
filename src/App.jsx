@@ -55,7 +55,7 @@ function App() {
   return (
     <ConfigProvider locale={language}>
       <header>
-        <div className="App">
+        <div className="App ">
           <Button
             style={{ width: 200 }}
             type="primary"
